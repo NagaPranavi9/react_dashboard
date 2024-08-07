@@ -96,6 +96,10 @@ body{
     justify-content: flex-start;  
     border:1px solid grey;
     border-radius: 10px;
+    -webkit-box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.75);
+border-radius: 10px;
 }
 
 .tableForm input{
@@ -141,4 +145,68 @@ body{
 }
 .checkBoxontainer input{
     margin-left: -180px;
+}  
+
+/* products table */
+.productSection {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-table {
+    width: 80vw;
+    border-collapse: collapse;
+}
+
+.product-table th,
+.product-table td {
+    border: 1px solid rgb(128, 128, 128);
+    padding: 8px;
+}
+
+.product-table th {
+    text-align: left;
+    background-color: rgb(47, 77, 212);
+    color: white;
+}
+
+.deleteBtn {
+    color: red;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* not found */
+
+.errorSection {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.errorSection h1 {
+    font-size: 4rem;
+}
+
+h3 {
+    color: #D7263D;
+}
+
+
+/* btn Submit */
+
+.btnSubmit button {
+    background-color: rgb(43, 43, 180);
+    width: 6rem;
+    color: white;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    border-radius: 5px;
 }
