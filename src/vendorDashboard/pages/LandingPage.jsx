@@ -115,7 +115,7 @@ const logOutHandler =()=>{
     <>
     <section className='landingSection'>
         <NavBar showLoginHandler = {showLoginHandler} showRegisterHandler = {showRegisterHandler}
-        showLogOut = {showLogOut}
+        // showLogOut = {showLogOut}
         logOutHandler = {logOutHandler}
         />
         <div className="collectionSection">
